@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" action="greeting">
+            <label for="input_name"/>Name:
+            <input type="text" name="name" id="input_name">
+            <label for="input_course"/>Course:
+            <input type="text" name="course" id="input_course"><br>
+            <label for="input_lang"/> Languages: <br>
+            <input type="checkbox" name="lang" value="Java"> Java
+            <input type="checkbox" name="lang" value="C++"> C++
+            <input type="checkbox" name="lang" value="PHP"> PHP
+            <input type="checkbox" name="lang" value="Python"> Python
+            <input type="checkbox" name="lang" value="MySQL"> MySQL
+            <br>
+            <label for="input_boxer"/> Boxer of the Century? <br>
+            <input type="radio" name="boxer" value="Pacman" checked> Manny Pacquiao
+            <input type="radio" name="boxer" value="Money"> Floyd Mayweather Jr.
+            <br>
+            <label for="input_type"/> User Type? 
+            <select name="type">
+                <option value="admin">Administrator</option>
+                <option value="user">User</option>
+            </select>
+            <input type="submit">
+        </form>
+    </body>
+</html>
